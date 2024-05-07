@@ -879,7 +879,8 @@ ul.icons li a:active {
 }
 
 .contactInfo {
-   list-style-type: none;
+   list-style: none;
+   display: inline-block;
 }
 
 
