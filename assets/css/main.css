@@ -409,8 +409,6 @@ textarea:focus {
    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
    border-bottom: none;
    position: relative;
-   align-items: center;
-   align-content: center;
 }
 
 .icon1:before {
@@ -499,13 +497,6 @@ textarea:focus {
 
 
 /* Features */
-
-.features li:last-child ul {
-   margin-bottom: 0;
-}
-
-
-
 .features {
    display: -moz-flex;
    display: -webkit-flex;
@@ -1465,7 +1456,7 @@ body.is-preload #header .content .inner {
    transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
    padding: 4.5rem 2.5rem 1.5rem 2.5rem;
    position: relative;
-   width: 50rem;
+   width: 40rem;
    max-width: 100%;
    background-color: rgba(27, 31, 34, 0.5);
    border-radius: 4px;
