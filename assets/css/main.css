@@ -878,7 +878,7 @@ ul.icons li a:active {
    background-color: rgba(255, 255, 255, 0.175);
 }
 
-.contactInfo {
+/*.contactInfo {
    list-style: none;
    display: inline-block;
 }
@@ -886,7 +886,7 @@ ul.icons li a:active {
 .contactInfo li {
    text-transform: none;
    font-family: "Source Sans Pro", sans-serif;
-}
+}*/
 
 
 /* Projects */
