@@ -883,6 +883,11 @@ ul.icons li a:active {
    display: inline-block;
 }
 
+.contactInfo li {
+   text-transform: none;
+   font-family: "Source Sans Pro", sans-serif;
+}
+
 
 /* Projects */
 /*.portfolio__container {
