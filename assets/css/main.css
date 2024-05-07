@@ -878,6 +878,10 @@ ul.icons li a:active {
    background-color: rgba(255, 255, 255, 0.175);
 }
 
+.contactInfo {
+   list-style-type: none;
+}
+
 
 /* Projects */
 /*.portfolio__container {
