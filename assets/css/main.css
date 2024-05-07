@@ -498,9 +498,8 @@ textarea:focus {
 
 /* Features */
 
-.features ul {
-   margin: 0; /* Remove default margin */
-   padding: 0; /* Remove default padding */
+.features li ul:last-child {
+   margin-bottom: 0;
 }
 
 
@@ -518,7 +517,7 @@ textarea:focus {
    -ms-justify-content: center;
    justify-content: center;
    width: calc(100% + 2em);
-   margin: 0;
+   margin: 0 0 3em -2em;
    padding: 0;
    list-style: none;
 }
@@ -1463,7 +1462,7 @@ body.is-preload #header .content .inner {
    transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
    padding: 4.5rem 2.5rem 1.5rem 2.5rem;
    position: relative;
-   width: 40rem;
+   width: 50rem;
    max-width: 100%;
    background-color: rgba(27, 31, 34, 0.5);
    border-radius: 4px;
