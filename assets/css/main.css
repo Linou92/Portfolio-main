@@ -409,6 +409,8 @@ textarea:focus {
    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
    border-bottom: none;
    position: relative;
+   align-items: center;
+   align-content: center;
 }
 
 .icon1:before {
@@ -498,9 +500,10 @@ textarea:focus {
 
 /* Features */
 
-.features li ul:last-child {
+.features li:last-child ul {
    margin-bottom: 0;
 }
+
 
 
 .features {
